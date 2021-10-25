@@ -1,10 +1,21 @@
 
+import ItemCount from './componets/ItemCount';
 import NavBar from './componets/NavBar';
+
+
+
+
+
+
+
+
+
 
 function App() {
   return (
     <div>
-      <NavBar/>    
+      <NavBar/>
+      <ItemCount/>
     </div>
   );
 }
